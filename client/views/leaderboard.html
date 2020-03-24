@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../css/leaderboard.css">
+        <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+        <script src="../js/leaderboard.js" defer></script>
+        <title> Cloud Typer Leaderboard </title>
+    </head>
+    <body>
+        <h1 class="title">Cloud Typer</h1>
+        <div class="limiter">
+            <div class="container-table100">
+                <div class="table100 ver1 m-b-110">
+                        <div class="table100-head">
+                            <table>
+                                <thead>
+                                    <tr class="row100 head">
+                                        <th class="column1">WPM</th>
+                                        <th class="column1">Last Name</th>
+                                        <th class="column1">First name</th>
+                                        <th class="column1">Rank</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+
+                        <div class="table100-body">
+                            <table>
+                                <tbody id="insertHere">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <td><input type="button" class='button' id="leadButt" value="Main Menu" onclick="location.href = './home.html';"></td>
+    </body>
+</html>

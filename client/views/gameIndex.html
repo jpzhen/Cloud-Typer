@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/gameStyle.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+  <script src="../js/gameScript.js" defer></script>
+  <title> Cloud Typer Game </title>
+</head>
+<body>
+
+  <h1 class="title">Cloud Typer</h1>
+  
+  <!-- display timer -->
+  <table class="toptable">
+    <tr>
+      <td><p class="stats" > Timer: </p></td>
+      <td><p class="stats" id="timer"> 0 </p></td>
+      <td><p class="stats" > Points: </p></td>
+      <td><p class="stats" id="point"> 0 </p></td>
+    </tr>
+  </table>
+  
+  <!-- display qoute and input from user -->
+  <div class="container">
+    <div class="quote-display" id="quoteDisplay"></div>
+    <textarea id="quoteInput" class="quote-input" autofocus></textarea>
+  </div>
+
+  <table class="bottomtable">
+    <tr>
+      <td><input type="button" class='button' id='reloadButt' value="Play Again!"></td>
+      <td><input type="button" class='button' id="leadButt" value="Leaderboard" onclick="location.href = './leaderboard.html';"></td>
+      <td><input type="button" class='button' id="mainButt" value="Main Menu" onclick="location.href = './home.html';"></td>
+    </tr>
+  </table>
+
+  <!-- pop screen -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="modalText"></p>
+    </div>
+  
+  </div>
+</body>
+</html>

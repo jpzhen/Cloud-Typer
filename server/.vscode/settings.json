@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/add3f613-b117-4e60-9df4-a9fc42d33896/resourceGroups/css436Win20projects/providers/Microsoft.Web/sites/cloudtyper",
+    "appService.deploySubpath": ""
+}
