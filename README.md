@@ -6,7 +6,7 @@
 
 Cloud Typer is a simple typing game that allows users to compete with friends or anyone in the world. Users will have 60 seconds to type and the final score will be all the words the user successfully entered. This score will automatically be passed to our server and get recorded in our database. Besides playing the game, users can view their personal best or visit the leaderboard to see the top 10 faster users. Our application is built with the help of AWS Elastic Beanstalk, Cognito, CodeCommit, CloudFront, CloudWatch, DynamoDB, SNS, S3, Quote API, and our player server. By utilizing these web services, we were able to implement login/registration, authentication, and notification.
 
-![Picture1](/Users/jzhenmbp/Desktop/Picture1.png)
+<img scr="images/Picture1.png>
 
 ### <u>URLs</u>
 
