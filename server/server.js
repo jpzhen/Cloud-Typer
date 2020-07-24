@@ -18,8 +18,8 @@ AWS.config.getCredentials((err) => {
 })
 
 const poolData = {
-    UserPoolId: "us-west-2_hqGTZ1Jjv",
-    ClientId: "6rq8h9qra7muscmoka8rv1gosj"
+    UserPoolId: "POOL-ID-KEY",
+    ClientId: "CLIENT-ID-KEY"
 }
 const sns = new AWS.SNS();
 const myDynamodb = new AWS.DynamoDB.DocumentClient();
