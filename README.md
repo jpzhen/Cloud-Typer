@@ -1,4 +1,4 @@
-# <font color="red">APP IS CURRENTLY DOWN!</font>
+# APP IS CURRENTLY DOWN!
 ## 							Cloud Typer
 
 
